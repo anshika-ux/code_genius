@@ -1,19 +1,19 @@
-# CodeGenius
+# SIRP
 # AI Interview Preparation Platform
 
-We are developing an AI-powered self-interview preparation platform. This platform leverages the power of AI and natural language processing to simulate real interview scenarios, providing users with valuable feedback and resources to enhance their interview skills.
+We are developing SIRP, an AI-powered self-interview preparation platform. This platform leverages the power of AI and machine learning to simulate real interview scenarios, providing users with ML-computed readiness scores, instant feedback on technical accuracy and communication skills, and personalized improvement tips.
 
 ## Key Features
 ## UI Pages
 
-- [Home Page](ui_pages/homepage.jpeg)
-![Home Page](ui_pages/homepage.jpeg)
-- [Interview Selection Page](ui_pages/interview_selection.jpeg)
-![Interview Selection Page](ui_pages/interview_selection.jpeg)
-- [Practice Interview Page](ui_pages/progress.jpeg)
-![Practice Interview Page](ui_pages/progress.jpeg)
-- [Feedback and Analysis Page](ui_pages/feedback.jpeg)
-![Feedback and Analysis Page](ui_pages/feedback.jpeg)
+- [Home Page](ui_pages/homepage_new.png)
+![Home Page](ui_pages/homepage_new.png)
+- [Interview Selection Page](ui_pages/interview_selection_new.png)
+![Interview Selection Page](ui_pages/interview_selection_new.png)
+- [Practice Interview Page](ui_pages/progress_new.png)
+![Practice Interview Page](ui_pages/progress_new.png)
+- [Feedback and Analysis Page](ui_pages/feedback_new.png)
+![Feedback and Analysis Page](ui_pages/feedback_new.png)
 
 ### Interview Simulator
 
