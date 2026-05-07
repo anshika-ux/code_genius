@@ -1,0 +1,88 @@
+export type QuestionItem = { question: string; techStack: string };
+
+const questionBank: Record<string, QuestionItem[]> = {
+  mern: [
+    { question: "What is the virtual DOM in React and how does it improve performance?", techStack: "mern" },
+    { question: "Explain the difference between useState and useReducer hooks in React. When would you use each?", techStack: "mern" },
+    { question: "What is middleware in Express.js? Give examples of common middleware use cases.", techStack: "mern" },
+    { question: "How does MongoDB indexing work and why is it important for query performance?", techStack: "mern" },
+    { question: "Explain the concept of React Context API and when you would use it over Redux.", techStack: "mern" },
+    { question: "What are React hooks? Explain useState, useEffect, and useCallback.", techStack: "mern" },
+    { question: "How do you handle authentication in a MERN stack application using JWT?", techStack: "mern" },
+    { question: "What is the difference between SQL and NoSQL databases? When would you choose MongoDB?", techStack: "mern" },
+    { question: "Explain the REST API design principles and HTTP methods (GET, POST, PUT, DELETE).", techStack: "mern" },
+    { question: "What is code splitting in React and how does it help with performance?", techStack: "mern" },
+  ],
+  node: [
+    { question: "Explain the Node.js event loop and how it handles asynchronous operations.", techStack: "node" },
+    { question: "What is the difference between process.nextTick(), setImmediate(), and setTimeout() in Node.js?", techStack: "node" },
+    { question: "How do you handle errors in async/await vs Promise chains in Node.js?", techStack: "node" },
+    { question: "What are streams in Node.js? Explain readable, writable, and transform streams.", techStack: "node" },
+    { question: "How does Node.js clustering work and why would you use it in production?", techStack: "node" },
+    { question: "Explain the CommonJS module system vs ES Modules in Node.js.", techStack: "node" },
+    { question: "What is the purpose of the package-lock.json file and how does it differ from package.json?", techStack: "node" },
+    { question: "How would you implement rate limiting in a Node.js REST API?", techStack: "node" },
+    { question: "What are worker threads in Node.js and when should you use them?", techStack: "node" },
+    { question: "Explain how you would structure a large-scale Node.js application for maintainability.", techStack: "node" },
+  ],
+  java: [
+    { question: "Explain the four pillars of Object-Oriented Programming in Java with examples.", techStack: "java" },
+    { question: "What is the difference between an interface and an abstract class in Java?", techStack: "java" },
+    { question: "How does Java's garbage collection work? What are the different GC algorithms?", techStack: "java" },
+    { question: "Explain the Java Collections Framework. What is the difference between ArrayList and LinkedList?", techStack: "java" },
+    { question: "What are Java generics and why are they useful? Explain type erasure.", techStack: "java" },
+    { question: "How does multithreading work in Java? What is the difference between a Thread and a Runnable?", techStack: "java" },
+    { question: "What is the Spring Boot framework? How does dependency injection work in Spring?", techStack: "java" },
+    { question: "Explain Java 8 features: lambda expressions, streams, and Optional.", techStack: "java" },
+    { question: "What is the difference between checked and unchecked exceptions in Java?", techStack: "java" },
+    { question: "How do HashMap and HashSet work internally in Java? What is hashing?", techStack: "java" },
+  ],
+  python: [
+    { question: "What are Python decorators and how do they work? Give a practical example.", techStack: "python" },
+    { question: "Explain Python's GIL (Global Interpreter Lock) and its impact on multithreading.", techStack: "python" },
+    { question: "What is the difference between a generator and a regular function in Python?", techStack: "python" },
+    { question: "How does Python's memory management and garbage collection work?", techStack: "python" },
+    { question: "Explain list comprehensions and dictionary comprehensions with examples.", techStack: "python" },
+    { question: "What are *args and **kwargs in Python? When would you use them?", techStack: "python" },
+    { question: "What is the difference between deep copy and shallow copy in Python?", techStack: "python" },
+    { question: "Explain Python's asyncio library and how async/await works.", techStack: "python" },
+    { question: "What are Python context managers? How do you create a custom context manager?", techStack: "python" },
+    { question: "How would you optimize a slow Python function? What profiling tools would you use?", techStack: "python" },
+  ],
+  dsa: [
+    { question: "Explain the time and space complexity of common sorting algorithms (QuickSort, MergeSort, HeapSort).", techStack: "dsa" },
+    { question: "What is a binary search tree? Explain insertion, deletion, and search operations.", techStack: "dsa" },
+    { question: "How does dynamic programming differ from recursion? Explain with an example like the Fibonacci sequence.", techStack: "dsa" },
+    { question: "What is BFS vs DFS graph traversal? When would you use one over the other?", techStack: "dsa" },
+    { question: "Explain the two-pointer technique and give an example problem where it applies.", techStack: "dsa" },
+    { question: "What is a hash table and how does it handle collisions?", techStack: "dsa" },
+    { question: "Explain the sliding window technique with an example.", techStack: "dsa" },
+    { question: "What is a heap data structure? How is it used in priority queues?", techStack: "dsa" },
+    { question: "Describe Dijkstra's algorithm for finding the shortest path in a weighted graph.", techStack: "dsa" },
+    { question: "What is the difference between a stack and a queue? Give real-world use cases for each.", techStack: "dsa" },
+  ],
+  hr: [
+    { question: "Tell me about yourself and your journey as a developer.", techStack: "hr" },
+    { question: "Describe a challenging technical problem you solved. What was your approach?", techStack: "hr" },
+    { question: "How do you handle tight deadlines and pressure? Give a specific example.", techStack: "hr" },
+    { question: "Tell me about a time you had a conflict with a teammate. How did you resolve it?", techStack: "hr" },
+    { question: "Where do you see yourself in 5 years? What are your career goals?", techStack: "hr" },
+    { question: "What is your greatest strength and how has it helped you in your work?", techStack: "hr" },
+    { question: "Describe a project you are most proud of. What was your contribution?", techStack: "hr" },
+    { question: "How do you stay updated with new technologies and industry trends?", techStack: "hr" },
+    { question: "Tell me about a time you received critical feedback. How did you respond?", techStack: "hr" },
+    { question: "Why do you want to work at this company? What excites you about this role?", techStack: "hr" },
+  ],
+  general: [
+    { question: "What motivated you to pursue a career in software development?", techStack: "general" },
+    { question: "Explain a technical concept you learned recently and how you applied it.", techStack: "general" },
+    { question: "How do you approach debugging a complex issue in your code?", techStack: "general" },
+    { question: "What is your preferred development workflow and tools?", techStack: "general" },
+    { question: "How do you ensure code quality in your projects?", techStack: "general" },
+  ],
+};
+
+export const getQuestions = (techStack: string | null): QuestionItem[] => {
+  const key = (techStack || "general").toLowerCase();
+  return questionBank[key] ?? questionBank["general"];
+};
