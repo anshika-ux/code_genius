@@ -8,11 +8,6 @@ We are developing SIRP, an AI-powered self-interview preparation platform. This 
 
 - [Home Page](ui_pages/homepage_new.png)
 ![Home Page](ui_pages/homepage_new.png)
-- [Interview Selection Page](ui_pages/interview_selection_new.png)
-![Interview Selection Page](ui_pages/interview_selection_new.png)
-- [Practice Interview Page](ui_pages/progress_new.png)
-![Practice Interview Page](ui_pages/progress_new.png)
-- [Feedback and Analysis Page](ui_pages/feedback_new.png)
 ![Feedback and Analysis Page](ui_pages/feedback_new.png)
 
 ### Interview Simulator
